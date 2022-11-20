@@ -7,6 +7,7 @@ pipeline {
         stage('pollscm') {
             steps {
               sh 'cat README.md'
+              echo "hello"
             }
         }
     }
